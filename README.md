@@ -12,7 +12,7 @@ import numpy as np
 base = pd.read_csv('credit_data.csv')
 
 
-# Corrigindo os valores negativos de idade
+# Corrigindo os valores negativos do atributo idade
 
 base.loc[base.age< 0, 'age'] = 40.92 
 
